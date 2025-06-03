@@ -1,0 +1,3 @@
+/home/lqh/code/HybridOctree_Hex/HybridOctree_Hex/build/CMakeFiles/HexGen.dir
+/home/lqh/code/HybridOctree_Hex/HybridOctree_Hex/build/CMakeFiles/edit_cache.dir
+/home/lqh/code/HybridOctree_Hex/HybridOctree_Hex/build/CMakeFiles/rebuild_cache.dir

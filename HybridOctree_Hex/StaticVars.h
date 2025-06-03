@@ -380,4 +380,4 @@ static int refinementOnce[8][8] = {
 	{8, 9, 12, 11, 14, 18, 17, 26},
 	{9, 10, 13, 12, 18, 16, 25, 17}
 };
-#endif STATICVARS_H
+#endif //STATICVARS_H

@@ -1,5 +1,8 @@
+#include <cmath>
+
 #ifndef INITIALIZATION_H
 #define INITIALIZATION_H
+
 
 // constants
 const double PI = 3.1415926535897932384626433;
@@ -233,4 +236,4 @@ const double CELL_DETECT = 1.0;
     return 0; \
 }
 
-#endif INITIALIZATION_H
+#endif //INITIALIZATION_H

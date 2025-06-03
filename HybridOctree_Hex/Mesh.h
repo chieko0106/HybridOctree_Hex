@@ -26,4 +26,4 @@ public:
 	void WriteToRaw(const char* fileName, double BOX_LENGTH_RATIO, double START_POINT[3]);
 };
 
-#endif MESH_H
+#endif //MESH_H

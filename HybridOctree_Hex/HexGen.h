@@ -108,4 +108,4 @@ private:
 	// initiate element valences in the octree structure
 	inline void InitiateElementValence();
 };
-#endif HEXGEN_H
+#endif //HEXGEN_H
