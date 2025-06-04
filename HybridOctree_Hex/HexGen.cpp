@@ -1461,6 +1461,8 @@ void hexGen::OutputOctree(const char* fileName) {
 			octreeMesh.v[octreeMesh.vNum][1] = y * cellsize;
 			octreeMesh.v[octreeMesh.vNum][2] = z * cellsize;
 			switch (j) {
+			case 0:
+				break;
 			case 1:
 				octreeMesh.v[octreeMesh.vNum][0] += cellsize;
 				break;
@@ -1503,6 +1505,7 @@ void hexGen::OutputOctree(const char* fileName) {
 		}
 	}
 	cutArray.clear();
+	std::cerr << "Write OutputOctree to file: " << fileName << std::endl;
 	octreeMesh.WriteToVtk(fileName, BOX_LENGTH_RATIO, START_POINT);
 }
 
